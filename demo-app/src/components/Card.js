@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 
 import { Button, Badge, Fade, Container, Row, Col} from 'reactstrap';
-import Image from 'react-bootstrap/Image'
+
 
 
 
@@ -36,7 +36,7 @@ function Card() {
                 
             </div>
             <div>
-                <Fade in={fadeIn} tag='h5' className='mt-3'><Image fluid thumbnail src = {data.url}/></Fade>
+                <Fade in={fadeIn} tag='h5' className='mt-3'><img fluid thumbnail src = {data.url}/></Fade>
             </div>
             <h5 className="text-info">By: {data.copyright}</h5>
             <div>

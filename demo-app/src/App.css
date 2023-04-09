@@ -42,11 +42,9 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
   .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 250px;
-    margin-left: 45px;
+    display: block;
+    margin: auto;
   }
 
 }

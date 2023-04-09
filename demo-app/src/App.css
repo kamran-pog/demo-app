@@ -44,7 +44,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .image {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 250px;
+    margin-left: 45px;
   }
 
 }

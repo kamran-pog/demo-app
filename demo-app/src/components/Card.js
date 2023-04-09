@@ -36,7 +36,8 @@ function Card() {
                 
             </div>
             <div>
-                <Fade in={fadeIn} tag='h5' className='mt-3'><img fluid thumbnail src = {data.url}/></Fade>
+                <Fade in={fadeIn} tag='h5' className='mt-3'><img class="ui medium rounded image" src = {data.url}/></Fade>
+                {/* <img class="ui medium rounded image" src="/images/wireframe/square-image.png"></img> */}
             </div>
             <h5 className="text-info">By: {data.copyright}</h5>
             <div>

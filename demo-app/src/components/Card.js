@@ -35,8 +35,8 @@ function Card() {
                 <Button color = 'primary' outline onClick={toggle}>{data.date}</Button>
                 
             </div>
-            <div>
-                <Fade in={fadeIn} tag='h5' className='mt-3'><img class="ui medium rounded image" src = {data.url}/></Fade>
+            <div className='image'>
+                <Fade in={fadeIn} tag='h5' className='mt-3'><img class="ui small rounded image" src = {data.url}/></Fade>
             </div>
             <h5 className="text-info">By: {data.copyright}</h5>
             <div>
